@@ -1,13 +1,13 @@
 {
   "name": "express-rest-es2017-boilerplate",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Express boilerplate for building RESTful APIs",
   "author": "Daniel Sousa <sousa.dfs@gmail.com>",
   "main": "src/index.js",
   "private": false,
   "license": "MIT",
   "engines": {
-    "node": ">=7.6",
+    "node": ">=8",
     "yarn": "*"
   },
   "scripts": {
@@ -62,14 +62,14 @@
     "starter project"
   ],
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.18.0",
     "bcryptjs": "2.4.3",
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.0",
     "compression": "^1.6.2",
     "cors": "^2.8.3",
     "cross-env": "^5.0.1",
-    "dotenv-safe": "^4.0.4",
+    "dotenv-safe": "^6.0.0",
     "express": "^4.15.2",
     "express-validation": "^1.0.2",
     "helmet": "^3.5.0",
@@ -83,7 +83,7 @@
     "morgan": "^1.8.1",
     "passport": "^0.4.0",
     "passport-http-bearer": "^1.0.1",
-    "passport-jwt": "3.0.0",
+    "passport-jwt": "4.0.0",
     "pm2": "^2.4.6",
     "uuid": "^3.1.0"
   },
@@ -98,10 +98,10 @@
     "husky": "^0.14.3",
     "mocha": "^3.3.0",
     "nodemon": "^1.11.0",
-    "nyc": "^11.0.3",
+    "nyc": "^12.0.2",
     "opn-cli": "^3.1.0",
-    "sinon": "^4.0.1",
-    "sinon-chai": "^2.10.0",
+    "sinon": "^6.0.0",
+    "sinon-chai": "^3.0.0",
     "supertest": "^3.0.0"
   }
 }
